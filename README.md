@@ -23,7 +23,7 @@ Follow this design
 
 - Use [react-bootstrap button](https://react-bootstrap.github.io/components/buttons/) for the head button
 - Use [react-bootstrap grid](https://react-bootstrap.github.io/layout/grid/) to create a grid with 3 col
-- Use [react-bootstrap ListGroup](https://react-bootstrap.github.io/components/listgroup/) to create a placeholder
+- Use [react-bootstrap ListGroup](https://react-bootstrap.github.io/components/list-group/) to create a placeholder
 
 [![Image 1](/docs/screen_step_1.PNG?raw=true)](/docs/screen_step_1.PNG?raw=true)
 
