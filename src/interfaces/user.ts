@@ -5,7 +5,7 @@ export interface User {
 }
 
 export interface RawUser {
-  id: string;
+  id: number;
   name: string;
   username: string;
   email: string;

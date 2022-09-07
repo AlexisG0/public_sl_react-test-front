@@ -1,19 +1,15 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
-// https://react-bootstrap.github.io
+import { Route, Routes, useLocation } from 'react-router-dom';
+import Dashboard from './features/dashboard';
 
-function App() {
-  return <main className="main">
-    <Jumbotron fluid>
-      <Container fluid="md">
-        <h1 className="mb-5">Keep calm, take a deep breath...</h1>
-      </Container>
-    </Jumbotron>
-    <Container fluid="md">
-      It's gonna be ok
-    </Container>
-  </main>
+const App: React.FunctionComponent = () => {
+  const location = useLocation();
+
+  return (
+    <Routes location={location} key={location.pathname}>
+      <Route path="/" element={<Dashboard />} />
+    </Routes>
+  )
 }
 
 export default App;
